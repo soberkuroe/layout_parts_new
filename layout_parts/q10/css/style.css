@@ -1,5 +1,43 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.contents{
+  text-align: center;
+}
+.article{
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  border: solid 5px #222;
+  border-radius: 30px;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 20px;
+  width: 550px;
+}
+.article:before{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 25px;
+  bottom: -25px;
+  border-top: 25px solid #222;
+  border-right: 25px solid transparent;
+  border-left: 25px solid transparent;
+}
+.article:after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 32px;
+  bottom: -18px;
+  border-top: 18px solid #fff;
+  border-right: 18px solid transparent;
+  border-left: 18px solid transparent;
+}
 
 /* 回答はここに書いてね */
