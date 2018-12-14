@@ -31,17 +31,17 @@
 .common{
   background-color: #00bcd4;
   cursor: pointer;
-  color: #FFF;
+  color: #fff;
 }
 .error{
   background-color: #ff4081;
   cursor: pointer;
-  color: #FFF;
+  color: #fff;
 }
 .disabled{
   background-color: #e5e5e5;
   cursor: default;
-  color: #FFF;
+  color: #fff;
 }
 .shadow{
   box-shadow: 0 1px 6px rgba(0,0,0,.12),

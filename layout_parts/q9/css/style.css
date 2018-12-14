@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.itemBox{
+.item-box{
   width: 500px;
   height: 333px;
   position: relative;
@@ -9,16 +9,16 @@
   margin: 0 auto;
   cursor: pointer;
 }
-.itemBox:hover .itemBoxThumb{
+.item-box:hover .item-box-thumb{
   transform: scale(1.5);
 }
-.itemBoxThumb{
+.item-box-thumb{
   transition-duration:0.5s;
 }
-.itemBox:hover .itemBoxCaption{
+.item-box:hover .item-box-caption{
   top: 0;
 }
-.itemBoxCaption{
+.item-box-caption{
   width: 100%;
   height: 100%;
   top: 100%;
@@ -48,8 +48,12 @@
   animation: spin 1.1s linear infinite;
 }
 @keyframes spin{
-  0%{transform:rotateZ(0deg);}
-  100%{transform:rotateZ(360deg);}
+  0%{
+    transform:rotateZ(0deg);
+  }
+  100%{
+    transform:rotateZ(360deg);
+  }
 }
 
 /* 回答はここに書いてね */
