@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table{
+.list{
   border-collapse: collapse;
   margin: 0 auto;
   table-layout: fixed;
   text-align: center;
   width: 100%;
 }
-th{
+.list th{
   border: solid 1px #dedede;
   background: #2244aa;
   color: white;
@@ -16,17 +16,17 @@ th{
   line-height: 26px;
   padding: 10px;0
 }
-td{
+.list td{
   border: solid 1px #dedede;
   font-size: 16px;
   line-height: 22px;
   padding: 10px;
   vertical-align: middle;
 }
-tr:nth-child(odd) td {
+.list tr:nth-child(odd){
   background-color: #ecf1f2;
 }
-tr:last-child{
+.list tr:last-child{
  border-top: dashed #000 2px;
 }
 /* 回答はここに書いてね */

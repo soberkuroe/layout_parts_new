@@ -1,16 +1,16 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.wrap1{
+.float-wrap{
   overflow: auto;
 }
-.article1_1{
+.float-article:first-child{
   box-sizing: border-box;
   float: left;
   font-size: 16px;
   width: 225px;
 }
-.article1_2{
+.float-article:last-child{
   box-sizing: border-box;
   float: left;
   font-size: 16px;
@@ -18,30 +18,30 @@
   width: 225px;
 }
 
-.wrap2{
+.table-wrap{
   display: table;
 }
-.section2{
+.table-section{
   display: table-cell;
   vertical-align: middle;
 }
-.article2-1{
+.table-article-left{
   box-sizing: border-box;
   font-size: 16px;
   width: 225px;
 }
-.article2-2{
+.table-article-right{
   box-sizing: border-box;
   font-size: 16px;
   width: 225px;
   margin-left: 50px;
 }
 
-.wrap3{
+.inline-block-wrap{
   font-size: 0px;
   text-align: center;
 }
-.section3-1{
+.inline-block-section:first-child{
   box-sizing: border-box;
   display: inline-block;
   font-size: 16px;
@@ -49,7 +49,7 @@
   text-align: left;
   vertical-align: middle;
 }
-.section3-2{
+.inline-block-section:last-child{
   box-sizing: border-box;
   display: inline-block;
   font-size: 16px;
@@ -59,42 +59,42 @@
   vertical-align: middle;
 }
 
-.wrap4{
+.flex-wrap{
   display: -webkit-flex;
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
-.section4-1{
+.flex-section:first-child{
   box-sizing: border-box;
   font-size: 16px;
   width: 225px;
 }
-.section4-2{
+.flex-section:last-child{
   box-sizing: border-box;
   font-size: 16px;
   width: 225px;
 }
-.wrap5{
+.inline-margin-wrap{
   font-size: 0px;
 }
-.section5-1{
+.left-section{
   display: inline-block;
   vertical-align: top;
 }
-.section5-2{
+.right-section{
   display: inline-block;
   box-sizing: border-box;
   margin-left: -300px;
   padding-left: 350px;
   width: 100%;
 }
-.article5-1{
+.left-article{
   box-sizing: border-box;
   font-size: 16px;
   width: 300px;
 }
-.article5-2{
+.right-article{
   box-sizing: border-box;
   font-size: 16px;
 }

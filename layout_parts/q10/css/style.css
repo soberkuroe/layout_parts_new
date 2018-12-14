@@ -1,15 +1,11 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.contents{
-  text-align: center;
-}
+
 .article{
+  margin: 0 auto;
   position: relative;
   box-sizing: border-box;
-  display: inline-block;
-  text-align: left;
-  vertical-align: middle;
   border: solid 5px #222;
   border-radius: 30px;
   font-size: 16px;

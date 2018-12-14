@@ -1,25 +1,26 @@
 @charset "UTF-8";
-
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
 .q1_wrap {
   margin: 0 auto;
   width: 940px;
   background-color:#eff3f4;
+  padding: 20px;
+  box-sizing: border-box;
 }
 .content {
-  padding: 20px;
-  margin: 20px 20px;
   float: left;
+  padding: 20px;
+  margin-left: 20px;
   background-color:#3274ae;
 }
-.q1_wrap .content:first-child {
-  margin-right: 0;
-}
-.q1_wrap .content:last-child {
+.content:first-child{
   margin-left: 0;
 }
-
 .text {
-  float: left;
   font-size: 16px;
   line-height: 16px;
   width: 230px;
@@ -27,9 +28,4 @@
   border:10px solid #022336;
   background-color:#eaf4ff;
   box-sizing: border-box;
-}
-.clearfix::after{
-  content: "";
-  display: block;
-  clear: both;
 }

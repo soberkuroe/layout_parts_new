@@ -7,10 +7,10 @@
 .container{
   display: table;
   width: 100%;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 .container:first-child {
-  padding-top: 0;
+  margin-top: 0;
 }
 .item{
   display: table-cell;

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.sml{
+.small{
   display: inline-block;
   line-height: 26px;
   padding-left: 15px;
@@ -10,7 +10,7 @@
   font-size: 16px;
   margin-left: 10px;
 }
-.mid{
+.middle{
   display: inline-block;
   line-height: 32px;
   padding-left: 20px;
@@ -19,7 +19,7 @@
   font-size: 20px;
   margin-left: 10px;
 }
-.lar{
+.large{
   display: inline-block;
   line-height: 38px;
   padding-left: 25px;
@@ -28,22 +28,22 @@
   font-size: 24px;
   margin-left: 10px;
 }
-.cmn{
+.common{
   background-color: #00bcd4;
   cursor: pointer;
   color: #FFF;
 }
-.err{
+.error{
   background-color: #ff4081;
   cursor: pointer;
   color: #FFF;
 }
-.dis{
+.disabled{
   background-color: #e5e5e5;
   cursor: default;
   color: #FFF;
 }
-.sdw{
+.shadow{
   box-shadow: 0 1px 6px rgba(0,0,0,.12),
   0 1px 4px rgba(0,0,0,.12);
   cursor: pointer;
